@@ -1,0 +1,117 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    overflow: hidden;
+}
+
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+header > img{
+    max-width:100%;
+    height: 70px;
+    
+}
+
+header > h1{
+    font-family:'Arvo';
+    font-style: italic;
+    font-size: 3em;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    
+    color: #ffffff;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*==============================*/
+
+body{
+    background: rgb(191,73,4);
+    background: linear-gradient(16deg, rgba(191,73,4,1) 27%, rgba(242,135,5,1) 65%);
+    
+    background-attachment: fixed;
+}    
+
+main{
+    display: flex;
+    font-family:'Noto Sans SC';
+    color: white;
+    align-items: flex-start;
+}
+
+#image{
+    width: 600px;
+    animation: upping 2s;
+}
+#image > img{
+    width: 600px
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 600px
+}
+
+#text{
+    animation: upping 3s;
+}
+
+#text > h1{
+    margin-top: 50px;
+}
+
+#buttonPlay{
+    margin-top: 100px;
+    text-align: center;
+
+    width: 200px;
+    height: 80px;
+    background: linear-gradient(61deg, rgba(248,176,18,1) 27%, rgba(242,135,5,1) 57%);  
+    border: 2px solid orangered;
+    border-radius: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    animation: upping 4s;
+}
+
+#treePoints{
+    display:none
+}
+

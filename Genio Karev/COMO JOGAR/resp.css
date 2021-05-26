@@ -1,0 +1,15 @@
+
+
+
+@media (max-width: 500px) {
+    body{
+    font-size: 0.7em ;
+    }
+    
+    #magicLamp{
+      
+        max-width: 60px;
+        transform: translateY(90px);
+    }
+
+}

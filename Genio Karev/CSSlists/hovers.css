@@ -1,0 +1,30 @@
+a:hover{
+    color: rgb(255, 255, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    cursor: pointer;
+}
+
+header:hover{
+    background-color: #ff9900;
+    
+}
+
+a > .seta:hover{
+    transform: rotate(-90deg) translateX(0)
+}
+
+
+.ask:focus{
+    width: 250px;
+    outline: 0;
+}
+
+button:hover{
+    background: rgb(197, 53, 0)
+}
+
+a > #seta:hover{
+    transform: rotate(-90deg)translateX(5px)
+}
+

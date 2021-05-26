@@ -1,0 +1,22 @@
+@media (max-width:500px){
+    *{
+        overflow-x: hidden
+    }
+    
+    body{
+        flex-direction: column-reverse;
+    }
+
+    .resposta{
+        font-size: 0.6em;
+        animation: showingResp 1s forwards;
+    }
+
+    #seta{
+        display: none;
+    }
+
+    #Karev{
+        max-width: 450px;
+    }
+}

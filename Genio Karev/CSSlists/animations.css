@@ -1,0 +1,78 @@
+@keyframes upping {
+    0%{
+        transform: translateY(200px);
+    }
+
+    100%{
+        translate:translateY(0px)
+    }
+}
+
+
+@keyframes moving {
+    
+    0%{
+        transform: translateZ(12px);
+    }
+
+
+    40%{
+        transform: translateX(-12px);
+    }
+
+    
+}
+
+@keyframes showing {
+    0%{
+        font-size: 0em;
+    }
+
+
+    100%{
+        font-size: 4em;
+    }
+
+    
+}
+
+@keyframes showingResp {
+    0%{
+        font-size: 0em;
+    }
+
+
+    100%{
+        font-size: 2.5em
+    }
+}
+
+@keyframes coming{
+    0%{
+    transform: transformX(-100px)}
+
+    100%{
+        transform: transformX(0px)
+    }
+
+}
+
+
+@keyframes openMenu {
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 100%;
+      
+    }
+
+    100%{
+        background-color: rgba(255, 166, 0, 0.481);
+        opacity: 100%;
+        
+    }
+    
+}
+

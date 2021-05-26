@@ -1,0 +1,50 @@
+
+
+body{
+    background: rgb(191,73,4);
+    background: linear-gradient(16deg, rgba(191,73,4,1) 27%, rgba(242,135,5,1) 65%);
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+    font-family: 'KoHo';
+
+    overflow: hidden
+    
+    ;
+
+}
+
+#magicLamp{
+    animation: upping 3s;
+    width: 150px;
+}
+
+a > .seta{
+    width: 30px;
+    transform: rotate(-90deg) translateX(-12px);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+#howPlay{
+    width: 70vw;
+    height: 60vh;
+}
+
+
+h1{
+    animation: upping 1s ;
+}
+
+p{
+    animation: upping 2s;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+

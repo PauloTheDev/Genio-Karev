@@ -1,0 +1,71 @@
+
+@media (max-width: 600px) {
+    
+    *{
+        overflow-x: hidden;
+    }
+
+
+    #SpaceThief{
+        display:none
+    }
+    
+    header{
+        justify-content: center;
+    }
+
+    header:hover{
+        background: none
+    }
+    
+    header > h1{
+        font-size: 2.5em;
+    }
+
+  
+
+    nav{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        width: 100vw;
+        transform: translateY(50px);
+        
+    }
+
+    ul{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li{
+        font-size: 1.2em;
+
+        
+    }
+
+    li > a{
+        color:white;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 1px;
+    }
+
+
+    #content{
+        width: 100vw;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    #image > img{
+
+        width:400px;
+        display:block
+    }
+
+    main{
+        flex-direction: column;
+    }
+}
